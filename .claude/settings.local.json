@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.figma.com)",
+      "Bash(composer create-project:*)",
+      "Bash(dir:*)",
+      "Bash(php artisan package:discover:*)",
+      "Bash(chmod:*)",
+      "Bash(php artisan:*)",
+      "Bash(composer require:*)",
+      "Bash(createdb:*)",
+      "Bash(psql:*)",
+      "Bash(ren:*)",
+      "Bash(move:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
